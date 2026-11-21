@@ -1,0 +1,8 @@
+{
+  "appId": "com.vaani.captions",
+  "appName": "Vaani Captions",
+  "webDir": "www",
+  "android": {
+    "allowMixedContent": false
+  }
+}

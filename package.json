@@ -1,0 +1,19 @@
+{
+  "name": "vaani-captions",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Voice and video to subtitles. On-device transcription, styled captions, 9:16 and 16:9 export.",
+  "scripts": {
+    "sync": "cap sync android",
+    "test": "node tests/unit.test.mjs"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.6.2",
+    "@capacitor/core": "^8.6.2",
+    "@capacitor/filesystem": "^8.1.5",
+    "@capacitor/share": "^8.0.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.6.2"
+  }
+}
